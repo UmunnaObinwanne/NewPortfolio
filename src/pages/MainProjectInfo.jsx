@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const ProjectInfo = ({ project }) => {
   return (
     <div className="w-full h-full">
@@ -48,8 +49,8 @@ const ProjectInfo = ({ project }) => {
                     key={info.id}
                   >
                     <span className="font-semibold">{info.title}: </span>
-                    <a
-                      href={info.title === "Website" ? info.details : "#"}
+                    <Link
+                      to={info.title === "Website" ? info.details : "#"}
                       className={
                         info.title === "Website" || info.title === "Phone"
                           ? "hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300"
@@ -58,7 +59,7 @@ const ProjectInfo = ({ project }) => {
                       aria-label="Project Website and Phone"
                     >
                       {info.details}
-                    </a>
+                    </Link>
                   </li>
                 );
               })}
