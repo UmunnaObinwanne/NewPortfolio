@@ -7,17 +7,20 @@ import AppHeader from './components/shared/AppHeader';
 import './css/App.css';
 import UseScrollToTop from './hooks/useScrollToTop';
 
+import ProjectSinglePage from './pages/ProjectSinglePage.jsx';
+
 const About = lazy(() => import('./pages/AboutMe'));
 const Contact = lazy(() => import('./pages/Contact.jsx'));
 const Home = lazy(() => import('./pages/Home'));
 const Projects = lazy(() => import('./pages/Projects'));
-const ProjectSingle = lazy(() => import('./pages/ProjectSingle.jsx'));
+
+
 
 
 function App() {
 	return (
 		<AnimatePresence>
-			<div className=" bg-secondary-light dark:bg-primary-dark transition duration-300">
+			<div className=" bg-secondary-light dark:bg-primary-dark transition duration-200">
 				<Router>
 					<ScrollToTop />
 					<AppHeader />
@@ -26,8 +29,8 @@ function App() {
 							<Route path="/" element={<Home />} />
 							<Route path="projects" element={<Projects />} />
 							<Route
-								path="projects/single-project"
-								element={<ProjectSingle />}
+								path="projects/:id"
+								element={<ProjectSinglePage />}
 							/>
 
 							<Route path="about" element={<About />} />
