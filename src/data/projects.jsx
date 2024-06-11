@@ -1,51 +1,52 @@
 // Import images
-import Quizzical from '../images/Quizzical.png';
-import Jobifinder from '../images/Jobifinder.png';
-import BuddyRental from '../images/BuddyRental.png';
-import SayThisPrayer from '../images/SayThisPrayer.png';
+import Quizzical from "../images/Quizzical.png";
+import Jobifinder from "../images/Jobifinder.png";
+import VintageMart from "../images/VintageMartHome.png";
+import SayThisPrayer from "../images/SayThisPrayer.png";
+import Incontent from "../images/IncontentAgencyImage.png";
 
 export const projectsData = [
-	{
-		id: "quizzical-app",
-    title: 'Quizzical',
-    category: 'Web Application',
+  {
+    id: "quizzical-app",
+    title: "Quizzical",
+    category: "Web Application",
     img: Quizzical,
     ProjectHeader: {
-      title: 'Quizzical App - From Context',
-      publishDate: 'May 26, 2024',
-      tags: 'UI / Frontend',
+      title: "Quizzical App - From Context",
+      publishDate: "May 26, 2024",
+      tags: "UI / Frontend",
     },
     ProjectInfo: {
-      ClientHeading: 'About Client',
+      ClientHeading: "About Client",
       CompanyInfo: [
         {
           id: 1,
-          title: 'Name',
-          details: 'Company Ltd',
+          title: "Name",
+          details: "Company Ltd",
         },
         {
           id: 2,
-          title: 'Services',
-          details: 'UI Design & Frontend Development',
+          title: "Services",
+          details: "UI Design & Frontend Development",
         },
         {
           id: 3,
-          title: 'Website',
-          details: 'https://quizziq.netlify.app/',
+          title: "Website",
+          details: "https://quizziq.netlify.app/",
         },
         {
           id: 4,
-          title: 'Phone',
-          details: '555 8888 888',
+          title: "Phone",
+          details: "555 8888 888",
         },
       ],
-      ObjectivesHeading: 'Objective',
+      ObjectivesHeading: "Objective",
       ObjectivesDetails:
-        'I just finished learning how to use the useEffect and other rendering hooks on React, and I decided to build something and solidify my knowledge. What came to my mind was something I could build and maybe find a way to monetize down the road by creating an interactive quiz game that people would love to play. Till then, I created just a basic web version. To achieve this within 7 days, I coded for over 12 hours a day.',
+        "I just finished learning how to use the useEffect and other rendering hooks on React, and I decided to build something and solidify my knowledge. What came to my mind was something I could build and maybe find a way to monetize down the road by creating an interactive quiz game that people would love to play. Till then, I created just a basic web version. To achieve this within 7 days, I coded for over 12 hours a day.",
       Technologies: [
         {
-          title: 'Tools & Technologies',
-          techs: ['HTML', 'CSS', 'JavaScript', 'React'],
+          title: "Tools & Technologies",
+          techs: ["HTML", "CSS", "JavaScript", "React"],
         },
       ],
       Challenges: `
@@ -67,98 +68,93 @@ export const projectsData = [
       `,
     },
   },
-	{
-		id: "buddy-rental",
-    title: 'Buddy Rental',
-    category: 'Web Application',
-    img: BuddyRental,
+  {
+    id: "vintage-mart",
+    title: "VintageMart",
+    category: "Web Application",
+    img: VintageMart,
     ProjectHeader: {
-      title: 'Buddy Rental Documentation',
-      publishDate: 'May June 10, 2024',
-      tags: 'UI / Frontend',
+      title: "Vintage Mart Documentation",
+      publishDate: "May June 10, 2024",
+      tags: "UI / Frontend",
     },
     ProjectInfo: {
-      ClientHeading: 'About Client',
+      ClientHeading: "About Client",
       CompanyInfo: [
         {
           id: 1,
-          title: 'Name',
+          title: "Name",
           details: "My Portfolio Project",
         },
         {
           id: 2,
-          title: 'Services',
-          details: 'UI Design & Frontend Development',
+          title: "Services",
+          details: "UI Design & Frontend Development",
         },
         {
           id: 3,
-          title: 'Website',
-          details: 'https://buddyrental.netlify.app/',
+          title: "Website",
+          details: "https://vintagemart.netlify.app/",
         },
         {
           id: 4,
-          title: 'Phone',
-          details: '+34 670 829 014',
+          title: "Phone",
+          details: "+34 670 829 014",
         },
       ],
-      ObjectivesHeading: 'Objective',
+      ObjectivesHeading: "Objective",
       ObjectivesDetails:
-        'I progressed to learning about react-routers and other higher concepts of react. This project should expose me to protected routes, shared UI components, and protected routes concept',
+        "I progressed to learning about react-routers and other higher concepts of react. This project should expose me to protected routes, shared UI components, and protected routes concept",
       Technologies: [
         {
-          title: 'Tools & Technologies',
-          techs: ['HTML', 'CSS', 'JavaScript', 'React'],
+          title: "Tools & Technologies",
+          techs: ["HTML", "CSS", "JavaScript", "React"],
         },
       ],
-      Challenges: `<p>The challenges I faced weren’t steep.. This is partly because I was watching a tutorial where the lecturer was building a different application while teaching React Router, and I was implanting the ideas into my own application.
-At some point I got confused on how to position my routes for components to share the same UI, so I had to watch the tutorial time and time again, before I understand and implement.
-
-A good project that made me understand how applications like Airbnb and other multi-user platforms are developed.</p>`,
-},
-
-
-	},
-	{
-	id: "jobifinder",
-    title: 'JobiFinder',
-    category: 'Web Application',
+      Challenges: `<p>No much challenges, as I already have a good graps of the many react concepts. I also used this project as an opportunity to learn Redux Toolkit, and I saw the reason it is used over the context API.</p>`,
+    },
+  },
+  {
+    id: "jobifinder",
+    title: "JobiFinder",
+    category: "Web Application",
     img: Jobifinder,
     ProjectHeader: {
       title: "JobiFinder Documentation",
-      publishDate: 'May June 25, 2024',
-      tags: 'UI / Frontend',
+      publishDate: "May June 25, 2024",
+      tags: "UI / Frontend",
     },
     ProjectInfo: {
-      ClientHeading: 'About Client',
+      ClientHeading: "About Client",
       CompanyInfo: [
         {
           id: 1,
-          title: 'Name',
+          title: "Name",
           details: "My JobiFinder Project",
         },
         {
           id: 2,
-          title: 'Services',
-          details: 'UI Design & Frontend Development',
+          title: "Services",
+          details: "UI Design & Frontend Development",
         },
         {
           id: 3,
-          title: 'Website',
-          details: 'https://jobifinder.netlify.app/',
+          title: "Website",
+          details: "https://jobifinder.netlify.app/",
         },
         {
           id: 4,
-          title: 'Phone',
-          details: '+34 670 829 014',
+          title: "Phone",
+          details: "+34 670 829 014",
         },
       ],
-      ObjectivesHeading: 'Objective',
+      ObjectivesHeading: "Objective",
       ObjectivesDetails:
-        'The aim is to incorporate every learning done without watching any tutorial. Let me see how far I can get.',
+        "The aim is to incorporate every learning done without watching any tutorial. Let me see how far I can get.",
       Technologies: [
         {
-          title: 'Tools & Technologies',
-          techs: ['HTML', 'CSS', 'JavaScript', 'React'],
+          title: "Tools & Technologies",
+          techs: ["HTML", "CSS", "JavaScript", "React"],
         },
       ],
       Challenges: `
@@ -171,56 +167,99 @@ Then again, I wanted a feature where employers can post jobs, then I needed anot
 Just when I completed the project and hosted on Netlify, I realized that it was messed up for dark-screen. As at the time of writing this, the dark-screen mode is still not fixed.
 
 I will continue working on it.</p>`,
-},
-
-
-	},
-	{
-	id: "saythisprayer",
-    title: 'SayThisPrayer',
+    },
+  },
+  {
+    id: "incontentagency",
+    title: "Incontent Agency Website",
+    category: "Web Application",
+    img: Incontent,
+    ProjectHeader: {
+      title: "Incontent Website Documentation",
+      publishDate: "June 10, 2024",
+      tags: "UI / Frontend",
+    },
+    ProjectInfo: {
+      ClientHeading: "About Client",
+      CompanyInfo: [
+        {
+          id: 1,
+          title: "Name",
+          details: "Incontent Agency Website",
+        },
+        {
+          id: 2,
+          title: "Services",
+          details: "UI Design and Web Design",
+        },
+        {
+          id: 3,
+          title: "Website",
+          details: "https://incontentagency.netlify.app/",
+        },
+        {
+          id: 4,
+          title: "Phone",
+          details: "+34 670 829 014",
+        },
+      ],
+      ObjectivesHeading: "Objective",
+      ObjectivesDetails: "A simple web design prototype for an agency business",
+      Technologies: [
+        {
+          title: "Tools & Technologies",
+          techs: ["HTML", "CSS", "Javascript"],
+        },
+      ],
+      Challenges: `
+<p>No real challenge. With my knowledge of web design, html, CSS, and a bit of Javascript, I made this fully functional web design project that any agency can use. It has very little interactivity, which is why I didn't use any frontend framework.</p>`,
+    },
+  },
+  {
+    id: "saythisprayer",
+    title: "SayThisPrayer",
     category: "WordPress Application",
     img: SayThisPrayer,
     ProjectHeader: {
       title: "SayThisPrayer Documentation",
-      publishDate: 'Feb 25, 2023',
-      tags: 'UI / Frontend',
+      publishDate: "Feb 25, 2023",
+      tags: "UI / Frontend",
     },
     ProjectInfo: {
-      ClientHeading: 'About Client',
+      ClientHeading: "About Client",
       CompanyInfo: [
         {
           id: 1,
-          title: 'Name',
+          title: "Name",
           details: "SayThisPrayer Project",
         },
         {
           id: 2,
-          title: 'Services',
-          details: 'Wordpress & Frontend Development',
+          title: "Services",
+          details: "Wordpress & Frontend Development",
         },
         {
           id: 3,
-          title: 'Website',
-          details: 'https://saythisprayer.org',
+          title: "Website",
+          details: "https://saythisprayer.org",
         },
         {
           id: 4,
-          title: 'Phone',
-          details: '+34 670 829 014',
+          title: "Phone",
+          details: "+34 670 829 014",
         },
       ],
-      ObjectivesHeading: 'Objective',
+      ObjectivesHeading: "Objective",
       ObjectivesDetails:
-        'I just wanted to start a platform where I shared some beliefs and also get paid for it.',
+        "I just wanted to start a platform where I shared some beliefs and also get paid for it.",
       Technologies: [
         {
-          title: 'Tools & Technologies',
-          techs: ['HTML', 'CSS', "wordpress"],
+          title: "Tools & Technologies",
+          techs: ["HTML", "CSS", "wordpress"],
         },
       ],
       Challenges: `
 <p>No real challenge. With my knowledge of web design, html, and CSS, I customized the website after installing WordPress on it. The website currently earns around $300 per month, so it seems like a good investment.</p>`,
-},
-
-	},
+    },
+  },
 ];
